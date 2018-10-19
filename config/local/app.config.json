@@ -1,0 +1,14 @@
+{
+	"app": {
+		"port": 4443
+	},
+	"emailCreds": {
+		"email": "",
+		"password": ""
+	},
+	"emailOptions": {
+		"from": "enzo-support@gmail.com",
+		"confirmationLink": "${host}/confirmEmail?${token}",
+		"restorePassLink": "${host}/newPassword?${token}"
+	}
+}
